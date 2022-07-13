@@ -263,6 +263,7 @@ body {
     justify-content: left;
   }
   .main__menu--logBtn {
+    display: flex;
     flex-direction: row;
   }
   .login__btn {

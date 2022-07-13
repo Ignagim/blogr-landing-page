@@ -162,7 +162,9 @@
     border-radius: 50px;
 }
 
-.bigscreen {display: none;}
+.bigscreen {
+    display: none;
+}
 
 @keyframes openCase {
     0% {
@@ -247,6 +249,7 @@
         justify-content: left;
     }
     .main__menu--logBtn {
+        display: flex;
         flex-direction: row;
     }
     .login__btn {

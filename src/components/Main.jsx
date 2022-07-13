@@ -89,8 +89,8 @@ function Main() {
           </div>
         </div>
         <div className="main__menu--logBtn bigscreen">
-          <button className="login__btn bigscreen">Login</button>
-          <button className="signup__btn bigscreen">Sign Up</button>
+          <button className="login__btn">Login</button>
+          <button className="signup__btn">Sign Up</button>
         </div>
         {open ? (
           <>
