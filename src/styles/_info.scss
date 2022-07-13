@@ -1,0 +1,64 @@
+.info {
+    margin-top: 100px;
+    padding: 0px 30px;
+    text-align: center;
+    font-family: $Font-1;
+    &__title {
+        font-size: 25px;
+    }
+
+    img {
+        margin-top: 30px;
+        width: 100%;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    p {
+        line-height: 25px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .info {
+        margin-top: 100px;
+        &__title {
+            font-size: 40px;
+        }
+        &__container {
+            position: relative;
+            display: flex;
+        }
+        img {
+            position: absolute;
+            margin-top: 30px;
+            right: -15em;
+            top: -8em;
+            width: 70%;
+        }
+        &__text--container {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin-left: 120px;
+            text-align: left;
+            margin-top: 5%;
+            gap: 50px;
+        }
+        &__text--extra {
+            margin-left: 50%;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p {
+            line-height: 30px;
+        }
+    }
+    .extra__img {
+        left: -20%;
+        margin-top: 100px !important;    
+    }
+}
+
+

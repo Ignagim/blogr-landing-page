@@ -1,0 +1,18 @@
+$color-primary-1: hsl(356, 100%, 66%);
+$color-primary-1-light: hsl(355, 100%, 74%);
+$color-primary-2: hsl(208, 49%, 24%);
+$color-light-1: hsl(0, 0%, 100%);
+$color-light-2: hsl(240, 2%, 79%);
+$color-dark-1: hsl(207, 13%, 34%);
+$color-dark-2: hsl(240, 10%, 16%);
+$Font-1: 'Overpass', sans-serif;
+$Font-2: 'Ubuntu', sans-serif;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
